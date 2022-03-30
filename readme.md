@@ -1,6 +1,10 @@
 # 가게 리뷰 사이트
 ### 유저(User), 지역(Area), 가게(Shop), 카테고리(Category), 가게 리뷰(ShopReview), 가게 포스팅(Shop Posting)
 
+
+## ERD
+<img width= "50%" src="https://user-images.githubusercontent.com/73453283/160869418-0d3cfc61-f80a-41ec-bc98-d5457d158209.png">
+
 ### User
 1. 유저는 회원가입시 ShopOwner을 할것인지 선택 가능하다
 2. 유저는 지역에 속해있다
