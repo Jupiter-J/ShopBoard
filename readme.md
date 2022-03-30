@@ -5,6 +5,14 @@
 ## ERD
 <img width= "50%" src="https://user-images.githubusercontent.com/73453283/160869418-0d3cfc61-f80a-41ec-bc98-d5457d158209.png">
 
+## Swagger
+![image](https://user-images.githubusercontent.com/73453283/160870137-2aea8d22-99c2-4f84-84fd-180ae1554e9d.png)
+![image](https://user-images.githubusercontent.com/73453283/160870237-c97c6119-e9c7-4a55-ac06-44d82c16a5a4.png)
+![image](https://user-images.githubusercontent.com/73453283/160870317-cf7e0fc1-9cd9-4467-a33a-2f8171dd5f86.png)
+![image](https://user-images.githubusercontent.com/73453283/160870376-c1a9ee72-23e7-40e0-a2ce-0b2a639b4221.png)
+
+
+
 ### User
 1. 유저는 회원가입시 ShopOwner을 할것인지 선택 가능하다
 2. 유저는 지역에 속해있다
