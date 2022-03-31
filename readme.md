@@ -1,5 +1,12 @@
 # 가게 리뷰 사이트
-### 유저(User), 지역(Area), 가게(Shop), 카테고리(Category), 가게 리뷰(ShopReview), 가게 포스팅(Shop Posting)
+## 주요 기능
+1. 유저는 회원가입시 shopOwner 선택이 가능하다
+2. shopOwner을 선택한 유저는 ShopPosting이 가능하다
+3. 일반 유저는 shopReivew 작성이 가능하다
+4. 유저와 가게는 모두 지역에 포함되어있다 
+### 사용한 Entity
+유저(User), 지역(Area), 가게(Shop), 카테고리(Category), 가게 리뷰(ShopReview), 가게 포스팅(Shop Posting)
+
 
 
 ## ERD
@@ -12,7 +19,7 @@
 ![image](https://user-images.githubusercontent.com/73453283/160870376-c1a9ee72-23e7-40e0-a2ce-0b2a639b4221.png)
 
 
-
+## ERD에 대한 자세한 기능 명세
 ### User
 1. 유저는 회원가입시 ShopOwner을 할것인지 선택 가능하다
 2. 유저는 지역에 속해있다
@@ -24,7 +31,7 @@
    1. 유저
       * 가게와 유저는 단방향 관계 (OneToOne)이다
       * 유저의 fk인 owner_id를 가지고 있다
-2. 가게는 지역과 카테고리에 속해있다.
+2. 가게는 지역과 카테고리에 속해있다
    1. 지역
       * 가게와 지역은 단방향 관계 (ManyToOne)이다
       * 가게는 지역의 fk인 located_at을 가지고 있다
@@ -43,7 +50,7 @@
       * 가게의 fk인 shop_id를 가지고 있다
   
    2. 가게 포스팅
-      * ShopOwner을 선택한 유저만 작성이 가능하다.
+      * ShopOwner을 선택한 유저만 작성이 가능하다
       * 가게 포스팅과 가게는 양방향 관계 (ManyToOne)이다
         > 특정 유저를 통해 사용하기 때문에 가게 안에 있는 유저의 owner_id를 사용할 수 있음으로 양방향 관계를 사용한다  
       * 가게의 fk인 shop_id를 가지고 있다
