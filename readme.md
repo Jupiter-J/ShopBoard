@@ -4,22 +4,28 @@
 2. shopOwner을 선택한 유저는 ShopPosting이 가능하다
 3. 일반 유저는 shopReivew 작성이 가능하다
 4. 유저와 가게는 모두 지역에 포함되어있다 
-### 사용한 Entity
-유저(User), 지역(Area), 가게(Shop), 카테고리(Category), 가게 리뷰(ShopReview), 가게 포스팅(Shop Posting)
+<br/><br/>
+
+# 개발일지
+## 2022-03-31 진행상황
+* [기능명세대로 적은 API 구현](#erd에-대한-기능-명세)
+* [Swagger 적용](#swagger)
 
 
+<br/><br/>
 
 ## ERD
 <img width= "50%" src="https://user-images.githubusercontent.com/73453283/160869418-0d3cfc61-f80a-41ec-bc98-d5457d158209.png">
 
+<br/><br/>
 ## Swagger
 ![image](https://user-images.githubusercontent.com/73453283/160870137-2aea8d22-99c2-4f84-84fd-180ae1554e9d.png)
 ![image](https://user-images.githubusercontent.com/73453283/160870237-c97c6119-e9c7-4a55-ac06-44d82c16a5a4.png)
 ![image](https://user-images.githubusercontent.com/73453283/160870317-cf7e0fc1-9cd9-4467-a33a-2f8171dd5f86.png)
 ![image](https://user-images.githubusercontent.com/73453283/160870376-c1a9ee72-23e7-40e0-a2ce-0b2a639b4221.png)
 
-
-## ERD에 대한 자세한 기능 명세
+<br/><br/>
+## ERD에 대한 기능 명세
 ### User
 1. 유저는 회원가입시 ShopOwner을 할것인지 선택 가능하다
 2. 유저는 지역에 속해있다
@@ -55,3 +61,5 @@
         > 특정 유저를 통해 사용하기 때문에 가게 안에 있는 유저의 owner_id를 사용할 수 있음으로 양방향 관계를 사용한다  
       * 가게의 fk인 shop_id를 가지고 있다
    
+
+
